@@ -1,0 +1,2 @@
+never ever change the scale of a collision change only the radius from shape of collisionShape
+or use the resizing tool(R) in the editor
