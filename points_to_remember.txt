@@ -3,3 +3,24 @@ or use the resizing tool(R) in the editor
 
 2. In GDScript, .normalized() is used on a vector to make it a unit vector — same direction, length = 1.
 keep direction kill magnitude
+
+3. elif and normal if can do different work like elif can stop diagonal movement
+    # this will give diagonal movement
+	if Input.is_action_pressed("move_right"):
+		direction.x = 1
+	if Input.is_action_pressed("move_left"):
+		direction.x = -1
+	if Input.is_action_pressed("move_up"):
+		direction.y = -1
+	if Input.is_action_pressed("move_down"):
+		direction.y =
+
+    # this will not give diagonal movement
+	if Input.is_action_pressed("move_right"):
+		direction.x = 1
+	elif Input.is_action_pressed("move_left"):
+		direction.x = -1
+	elif Input.is_action_pressed("move_up"):
+		direction.y = -1
+	elif Input.is_action_pressed("move_down"):
+		direction.y =
