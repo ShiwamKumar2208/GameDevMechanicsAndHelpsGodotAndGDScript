@@ -1,2 +1,5 @@
-never ever change the scale of a collision change only the radius from shape of collisionShape
+1. never ever change the scale of a collision change only the radius from shape of collisionShape
 or use the resizing tool(R) in the editor
+
+2. In GDScript, .normalized() is used on a vector to make it a unit vector — same direction, length = 1.
+keep direction kill magnitude
