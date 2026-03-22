@@ -24,3 +24,9 @@ keep direction kill magnitude
 		direction.y = -1
 	elif Input.is_action_pressed("move_down"):
 		direction.y =
+
+
+4.  For a CharacterBody2D:
+	body.queue_free() # deletes the player
+    get_tree().reload_current_scene() # reloads the current scene
+    get_tree().change_scene_to_file() # changes to that level
