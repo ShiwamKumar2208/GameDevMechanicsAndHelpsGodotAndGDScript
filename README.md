@@ -11,8 +11,10 @@ Think of it as a toolbox for speeding up development and learning how things act
 ---
 
 ## 🎮 My games
-- Danger Dash
+# Danger Dash
 - https://shiwamkumar.itch.io/danger-dash
+- Or play on web only
+- https://shiwamkumar.itch.io/danger-dash-web
 
 ## 🤝 Contributing
 Got a mechanic that's missing?  
