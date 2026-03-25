@@ -1,0 +1,23 @@
+search:
+    ctrl + p --> quick open any file in the project by name or by extension
+
+    ctrl + shift + o --> quick open specifically for scenes
+
+    ctrl + alt + o --> quick open specifically for scripts
+
+general:
+    ctrl + a --> create new node in the node selected
+
+    ctrl + shift + a --> add new scene in the scene u r currently inside on scene
+
+    ctrl + d --> duplication
+
+    ctrl + up --> moves node up
+
+    ctrl + down --> moves node down
+
+    ctrl + f1/f2/f3 --> shift workspace (2d, 3d, script)
+    // mine it was not working therefore i changed them to ctrl + 2/3/4
+
+    f5/f6/f8 --> run game/scene(current)/stop running game
+
