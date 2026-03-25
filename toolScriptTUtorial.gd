@@ -30,3 +30,89 @@ func _physics_process(_delta: float) -> void:
 			new_sprite.owner = get_tree().edited_scene_root
 	else:
 		pass
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# for editor script --> it gives a run function, and can be used to manipulate any selected scene
+@tool
+extends EditorScript
+
+func _run() -> void:
+	var current_scene = get_scene()
+	print(current_scene)
+
+
+# only runs in the editor window and when the editor is selected
+
+
+
+
+
+
+
+
+
+@tool
+extends Node2D
+
+@export var tex: String = "Hi":
+	set(value):
+		tex = value
+		_update_label()
+
+func _ready():
+	_update_label()
+
+func _enter_tree():
+	_update_label()
+
+func _update_label():
+	var label = get_node_or_null("textLabelExp")
+	if label:
+		label.text = tex
+
+# https://www.youtube.com/watch?v=UWqDETDjn_k
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
